@@ -1,0 +1,43 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+    margin: 0;
+}
+
+.container {
+    text-align: center;
+}
+
+h1 {
+    font-size: 3em;
+    color: #4caf50;
+}
+
+.counter {
+    font-size: 2em;
+    margin: 20px 0;
+    color: #333;
+}
+
+.click-button {
+    font-size: 1.5em;
+    padding: 10px 20px;
+    color: #fff;
+    background-color: #4caf50;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.1s;
+}
+
+.click-button:hover {
+    background-color: #45a049;
+}
+
+.click-button:active {
+    transform: scale(1.1);
+}
