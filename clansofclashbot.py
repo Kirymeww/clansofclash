@@ -1,7 +1,7 @@
 import telebot
 
 # Создаем экземпляр бота с помощью токена
-bot = telebot.TeleBot('YOUR_TELEGRAM_BOT_TOKEN')
+bot = telebot.TeleBot('7179938903:AAHIli8J27QvKM5V0CS2FmK2L-I1ZW3aSHc')
 
 # Обработчик всех текстовых сообщений
 @bot.message_handler(func=lambda message: True)
